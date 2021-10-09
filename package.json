@@ -1,9 +1,12 @@
 {
   "devDependencies": {
-    "@types/node": "^16.10.3"
+    "@types/node": "^16.10.3",
+    "@types/punycode": "^2.1.0"
   },
   "dependencies": {
-    "emojis-list": "^3.0.0"
+    "csv-writer": "^1.6.0",
+    "emojis-list": "^3.0.0",
+    "punycode": "^2.1.1"
   },
   "scripts": {
     "lint": "eslint . --ext .ts --fix",
