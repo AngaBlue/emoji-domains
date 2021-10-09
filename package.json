@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "@types/node": "^16.10.3"
+  },
+  "dependencies": {
+    "emojis-list": "^3.0.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .ts --fix",
+    "prettier": "prettier --write src/**/*.{ts,js}",
+    "build": "tsc",
+    "start": "node build/index.js"
+  }
+}
