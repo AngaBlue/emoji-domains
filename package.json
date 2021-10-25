@@ -1,17 +1,38 @@
 {
-  "devDependencies": {
-    "@types/node": "^16.10.3",
-    "@types/punycode": "^2.1.0"
-  },
+  "name": "emoji-domains",
+  "version": "1.0.0",
+  "description": "Quickly find and export all available single emoji domains to a spreadsheet.",
+  "main": "build/index.js",
   "dependencies": {
     "csv-writer": "^1.6.0",
     "emojis-list": "^3.0.0",
     "punycode": "^2.1.1"
   },
+  "devDependencies": {
+    "@angablue/eslint-config": "^1.0.5",
+    "@types/node": "^16.10.3",
+    "@types/punycode": "^2.1.0",
+    "eslint": "^8.1.0",
+    "prettier": "^2.4.1"
+  },
   "scripts": {
     "lint": "eslint . --ext .ts --fix",
-    "prettier": "prettier --write src/**/*.{ts,js}",
     "build": "tsc",
     "start": "node build/index.js"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AngaBlue/emoji-domains.git"
+  },
+  "keywords": [
+    "emoji",
+    "domains",
+    "emoji-domains"
+  ],
+  "author": "AngaBlue <contact@anga.blue>",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/AngaBlue/emoji-domains/issues"
+  },
+  "homepage": "https://github.com/AngaBlue/emoji-domains#readme"
 }

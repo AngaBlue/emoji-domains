@@ -1,5 +1,5 @@
-export default function delay (time: number) {
-    return new Promise((res) => {
+export default function delay(time: number) {
+    return new Promise(res => {
         setTimeout(res, time);
-    })
+    });
 }
