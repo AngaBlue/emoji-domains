@@ -26,8 +26,9 @@
   },
   "keywords": [
     "emoji",
+    "emojis",
     "domains",
-    "emoji-domains"
+    "emoji-domain"
   ],
   "author": "AngaBlue <contact@anga.blue>",
   "license": "LGPL-3.0-or-later",

@@ -1,4 +1,4 @@
-<h1 align="center">Emoji Domains 👋</h1>
+<h1 align="center">Emoji Domains 😊</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/AngaBlue/emoji-domains/blob/master/LICENSE" target="_blank">
@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> Quickly find and export all available single emoji domains to a spreadsheet.
+Quickly find and export all available single emoji domains to a spreadsheet.
 
 ### 🏠 [Homepage](https://github.com/AngaBlue/emoji-domains#readme)
 
@@ -36,7 +36,7 @@ npm start
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AngaBlue/emoji-domains/issues). You can also take a look at the [contributing guide]( ).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AngaBlue/emoji-domains/issues).
 
 ## Show your support
 
